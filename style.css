@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+  width:80vw;
+  place-items: center;
+  margin: 5% auto;
+
+  
+
+
+
+}
+.form-container{
+    border-width: 1px;
+    border-color:rgb(101, 200, 224);
+    border-style: solid;
+    
+    box-shadow:rgb(216, 210, 210);
+    width:500px;
+    margin: 35px auto;
+    padding-top: 32px;
+    border-radius: 6px;
+    background-color: rgb(228, 215, 215);
+    
+}
+.titles{
+    text-align: center;
+
+}
+h2{
+    color:aqua;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+}
+.underline{
+    height: 0.52rem;
+    width: 6rem;
+    background:red;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.ram{
+    width:170px;
+    height: 120px;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#info-container{
+    text-align: center;
+}
+#btns{
+    display: flex;
+    justify-content: center;
+    
+}
+#right-btn,#left-btn{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.press-btn{
+    display: block;
+    margin: 18px auto;
+    background-color: rgb(235, 235, 82);
+    outline: none;
+    border-radius: 6px;
+    padding: 4px 10px;
+    border-width: 1px;
+    border-color: rgb(51, 49, 49);
+
+}
+
+
+
+
+
+
+#left-btn, #right-btn{
+    display: inline-block;
+}
